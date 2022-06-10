@@ -1,0 +1,58 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D5E1EF;
+    font-family: "Nunito";
+}
+
+.card{
+    background-color: #fff;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.card article{
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.card-title{
+    margin: 15px 0;
+    color: #424242;
+    font-weight: 850;
+}
+
+.card-text{
+    color: #888;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+    /* height: ; */
+}
+
+.attribution{
+    position: fixed;
+    bottom: 0;
+}
+
+
+@media screen and (max-width: 300px) {
+    .card{
+        width: 95%;
+    }
+}
